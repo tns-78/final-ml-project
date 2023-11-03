@@ -8,17 +8,17 @@ It has been done in three phases:
 # 1- Feature Extraction
 First of all, we obtained mean and std of some features values of images in both real or fake categoreies, then saved the results in csv dataframe. The results are also illustrated in feature_extraction_data_analysis ipynb file.
 The mentioned features include:
-1- Noise Detection(Wave Length/ Saturation/ Intensity i.e. HSV)
-2- Blurriness
-3- Canny Edge Detection
-4- Color Distribution(RGB, Y/Cr/Cb, L/A/B)
-5- Gray-level co-occurrence matrix(GLCM): Contrast, Correlation, Energy, Homogenity, ASM, Dissimilarity
+1. Noise Detection(Wave Length/ Saturation/ Intensity i.e. HSV)
+2 Blurriness
+3. Canny Edge Detection
+4. Color Distribution(RGB, Y/Cr/Cb, L/A/B)
+5. Gray-level co-occurrence matrix(GLCM): Contrast, Correlation, Energy, Homogenity, ASM, Dissimilarity
 
 # 2- Classification
-The model with labeled data has been trained based on exteracted features from previous stage and given ones(by TA). Decesion Tree, Logistic Rgression, SVM and Random Forest are the algorithms utilized to classify images.
+The model with labeled data has been trained based on exteracted features from previous stage and given ones(by TA). Decesion Tree, Logistic Rgression, SVM and Random Forest are the algorithms utilized to classify images. (The results are availabe on classification.ipynb)
 
 # 3- Clustering
-The model on data without label has been trained based on exteracted features from previous stage and given ones(by TA). Gaussian Mixture Model(GMM), Hierarchical and K-means are used algorithms in order to cluster images.
+The model on data without label has been trained based on exteracted features from previous stage and given ones(by TA). Gaussian Mixture Model(GMM), Hierarchical and K-means are used algorithms in order to cluster images. (The results are availabe on clustering.ipynb)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Requirements 🔧
