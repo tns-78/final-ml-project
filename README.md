@@ -9,7 +9,7 @@ It has been done in three phases:
 First of all, we obtained mean and std of some features values of images in both real or fake categoreies, then saved the results in csv dataframe. The results are also illustrated in feature_extraction_data_analysis ipynb file.
 The mentioned features include:
 1. Noise Detection(Wave Length/ Saturation/ Intensity i.e. HSV)
-2 Blurriness
+2. Blurriness
 3. Canny Edge Detection
 4. Color Distribution(RGB, Y/Cr/Cb, L/A/B)
 5. Gray-level co-occurrence matrix(GLCM): Contrast, Correlation, Energy, Homogenity, ASM, Dissimilarity
